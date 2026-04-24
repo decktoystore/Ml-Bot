@@ -1,0 +1,25 @@
+{
+  "name": "mlbot",
+  "version": "1.0.0",
+  "description": "Bot de promoções do Mercado Livre para Telegram e WhatsApp",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test-send": "node -e \"require('./bot.js')\" --test"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "MLBot",
+  "license": "MIT"
+}
